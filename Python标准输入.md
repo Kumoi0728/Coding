@@ -109,6 +109,6 @@ data = [sys.stdin.readline().rstrip().split() for _ in range(N)]
 ['7', '8', '9']
 ```
 
-#  args
-
-
+#  CLI
+`sys.argv`是一个列表，存储命令行`python`后面的文字。
+一般第一个参数`sys.argv[0]`是文件名，`sys.argv[1]`开始才是“参数”。
