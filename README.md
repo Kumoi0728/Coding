@@ -1,2 +1,2 @@
-# 刷题记录
-包括Atcoder，LeetCode，HackerRank
+# Memo while practicing programming
+Atcoder，LeetCode，HackerRank
