@@ -11,6 +11,17 @@ N 枚のお札の合計金額が Y 円となることがありうる場合は
 ---
 
 # 注意点
-1. 实际应用中数量可以取0-n，所以循环中range(n+1)
+1. 实际应用中数量可以取0-n，所以循环中**range(n+1)**
 2. a+b+c=n，循环a,b，计算c即可
 3. print return时会带上括号
+
+```python
+n, y = map(int,input().split())
+
+a,b,c=-1,-1,-1
+for i in range(n+1):
+  for j in range(n+1-i):
+    if 10000*i + 5000*j + 1000*(n-i-j) == y :
+      a,b,c=i,j,(n-i-j)
+print(a,b,c)
+```
