@@ -49,7 +49,7 @@ num_list = [int(input()) for _ in range(N)]
 
 ```python
 # 数字
-l = [list(map(int, input().split())) for l in range(N)]
+l = [list(map(int, input().split())) for _ in range(N)]
 
 >>> print(l)
 [[1, 2], [3, 4], [5, 6]]
